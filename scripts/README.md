@@ -1,6 +1,7 @@
 ### Scripts (CraftTweaker)
-Person in charge:
-- ikrarsizarmy and Nucc
+People in charge:
+- ikrarsizarmy
+- Nucc
 
 Any questions about this topic goes to the people in charge
 
