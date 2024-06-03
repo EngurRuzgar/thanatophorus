@@ -24,21 +24,32 @@
 			<atmosphereDensity>300</atmosphereDensity>
 			<gravitationalMultiplier>350</gravitationalMultiplier>
 			<orbitalDistance>400</orbitalDistance>
-			<planet name="Schistosomiasis">
+			<planet name="Schistosomiasis" DIMID="101" customIcon="marslike">
 				<isKnown>true</isKnown>
 				<fogColor>2,1,1</fogColor>
-				<skyColor>2,1,1</fogColor>
+				<skyColor>2,1,1</skyColor>
 				<atmosphereDensity>110</atmosphereDensity>
 				<gravitationalMultiplier>110</gravitationalMultiplier>
-				<orbitalDistance>125</orbitalDistance>
-				<avgTemperature>30</avgTemperature>
+				<orbitalDistance>100</orbitalDistance>
+				<avgTemperature>35</avgTemperature>
+				<rotationalPeriod>36000</rotationalPeriod>
+				<biomeIds>0</biomeIds>
 			</planet>
-			<planet name="Cysticercosis">
+			<planet name="Cysticercosis" DIMID="102" customIcon="venusian">
+				<isKnown>true</isKnown>
+				<fogColor>2,2,1</fogColor>
+				<skyColor>2,2,1</skyColor>
+				<atmosphereDensity>70</atmosphereDensity>
+				<gravitationalMultiplier>60</gravitationalMultiplier>
+				<orbitalDistance>240</orbitalDistance>
+				<avgTemperature>15</avgTemperature>
+				<rotationalPeriod>12000</rotationalPeriod>
+				<biomeIds>0</biomeIds>
 			</planet>
 		</planet>
     </star>
 	<star blackHole="false" name="Sol" size="2" temp="100" x="0" y="0">
-		<planet name="Earth" DIMID="0" customIcon="waterworld">
+		<planet name="Earth" DIMID="0" dimMapping="0" customIcon="waterworld">
 			<isKnown>true</isKnown>
 			<fogColor>1,1,1</fogColor>
 			<skyColor>0,0,1</skyColor>
