@@ -1,0 +1,81 @@
+<galaxy>
+    <star blackHole="true" name="Chronos" size="8" temp="0" x="149" y="132">
+        <planet name="Hades" DIMID="99" customIcon="carbonworld">
+			<isKnown>true</isKnown>
+            <fogColor>0,0,0</fogColor>
+            <skyColor>0,0,0</skyColor>
+            <atmosphereDensity>10</atmosphereDensity>
+            <gravitationalMultiplier>150</gravitationalMultiplier>
+            <orbitalDistance>60</orbitalDistance>
+            <orbitalTheta>17</orbitalTheta>
+			<orbitalPhi>19</orbitalPhi>
+			<avgTemperature>98</avgTemperature>
+            <rotationalPeriod>96000</rotationalPeriod>
+            <biomeIds>0</biomeIds>     
+        </planet>
+    </star>
+	<star blackHole="false" name="Sol" size="2" temp="100" x="0" y="0">
+		<planet name="Earth" DIMID="0" customIcon="waterworld">
+			<isKnown>true</isKnown>
+			<fogColor>1,1,1</fogColor>
+			<skyColor>0,0,1</skyColor>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<avgTemperature>25</avgTemperature>
+			<rotationalPeriod>24000</rotationalPeriod>
+				<planet name="Luna" DIMID="20" customIcon="moon">
+				<isKnown>true</isKnown>
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>11</gravitationalMultiplier>
+				<orbitalDistance>100</orbitalDistance>
+				<biomeIds>0</biomeIds>
+				</planet>
+		</planet>
+		<planet name="Mars" DIMID="21" customIcon="marslike">
+			<isKnown>true</isKnown>
+			<fogColor>2,1,1</fogColor>
+			<skyColor>2,1,1</skyColor>
+			<atmosphereDensity>20</atmosphereDensity>
+			<gravitationalMultiplier>50</gravitationalMultiplier>
+			<orbitalDistance>150</orbitalDistance>
+			<avgTemperature>-50</avgTemperature>
+			<rotationalPeriod>28000</rotationalPeriod>
+		</planet>
+		<planet name="Venus" DIMID="22" customIcon="venusian">
+			<isKnown>true</isKnown>
+			<fogColor>2,2,1</fogColor>
+			<skyColor>2,2,1</skyColor>
+			<atmosphereDensity>9800</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>40</orbitalDistance>
+			<avgTemperature>464</avgTemperature>
+			<rotationalPeriod>240000</rotationalPeriod>
+		</planet>
+		<planet name="Mercury" DIMID="23" customIcon="moon">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>0</atmosphereDensity>
+			<gravitationalMultiplier>40</gravitationalMultiplier>
+			<orbitalDistance>10</orbitalDistance>
+			<avgTemperature>430</avgTemperature>
+			<rotationalPeriod>120000</rotationalPeriod>
+		</planet>
+		<planet name="Jupiter" DIMID="24" customIcon="gasgiantbrown">
+			<GasGiant>true</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<atmosphereDensity>200</atmosphereDensity>
+			<gravitationalMultiplier>200</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+		</planet>
+		<planet name="Saturn" DIMID="25" customIcon="gasgiantbrown">
+			<GasGiant>true</GasGiant>
+			<hasRings>true</hasRings>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<atmosphereDensity>180</atmosphereDensity>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>250</orbitalDistance>
+		</planet>
+	</star>
+</galaxy>
