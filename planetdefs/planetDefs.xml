@@ -11,7 +11,8 @@
 			<orbitalPhi>19</orbitalPhi>
 			<avgTemperature>98</avgTemperature>
             <rotationalPeriod>96000</rotationalPeriod>
-            <biomeIds>0</biomeIds>     
+            <biomeIds>0</biomeIds>
+			<hasOxygen>false</hasOxygen>			
         </planet>
     </star>
 	<star blackHole="false" name="Sol" size="2" temp="100" x="0" y="0">
@@ -24,12 +25,14 @@
 			<orbitalDistance>100</orbitalDistance>
 			<avgTemperature>25</avgTemperature>
 			<rotationalPeriod>24000</rotationalPeriod>
+			<hasOxygen>true</hasOxygen>
 				<planet name="Luna" DIMID="20" customIcon="moon">
 				<isKnown>true</isKnown>
 				<atmosphereDensity>0</atmosphereDensity>
 				<gravitationalMultiplier>11</gravitationalMultiplier>
 				<orbitalDistance>100</orbitalDistance>
 				<biomeIds>0</biomeIds>
+				<hasOxygen>false</hasOxygen>
 				</planet>
 		</planet>
 		<planet name="Mars" DIMID="21" customIcon="marslike">
@@ -41,6 +44,7 @@
 			<orbitalDistance>150</orbitalDistance>
 			<avgTemperature>-50</avgTemperature>
 			<rotationalPeriod>28000</rotationalPeriod>
+			<hasOxygen>false</hasOxygen>
 		</planet>
 		<planet name="Venus" DIMID="22" customIcon="venusian">
 			<isKnown>true</isKnown>
@@ -51,6 +55,7 @@
 			<orbitalDistance>40</orbitalDistance>
 			<avgTemperature>464</avgTemperature>
 			<rotationalPeriod>240000</rotationalPeriod>
+			<hasOxygen>false</hasOxygen>
 		</planet>
 		<planet name="Mercury" DIMID="23" customIcon="moon">
 			<isKnown>true</isKnown>
@@ -59,23 +64,67 @@
 			<orbitalDistance>10</orbitalDistance>
 			<avgTemperature>430</avgTemperature>
 			<rotationalPeriod>120000</rotationalPeriod>
+			<hasOxygen>false</hasOxygen>
 		</planet>
 		<planet name="Jupiter" DIMID="24" customIcon="gasgiantbrown">
+			<isKnown>true</isKnown>
 			<GasGiant>true</GasGiant>
+			<gas>hydrogen</gas>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<atmosphereDensity>200</atmosphereDensity>
 			<gravitationalMultiplier>200</gravitationalMultiplier>
 			<orbitalDistance>200</orbitalDistance>
+			<hasOxygen>false</hasOxygen>
 		</planet>
 		<planet name="Saturn" DIMID="25" customIcon="gasgiantbrown">
+			<isKnown>true</isKnown>
 			<GasGiant>true</GasGiant>
 			<hasRings>true</hasRings>
+			<gas>hydrogen</gas>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<atmosphereDensity>180</atmosphereDensity>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
-			<orbitalDistance>250</orbitalDistance>
+			<orbitalDistance>270</orbitalDistance>
+			<hasOxygen>false</hasOxygen>
+		</planet>
+		<planet name="Uranus" DIMID="26" customIcon="gasgiantblue">
+			<isKnown>true</isKnown>
+			<GasGiant>true</GasGiant>
+			<hasRings>true</hasRings>
+			<gas>water</gas>
+			<gas>methane</gas>
+			<gas>ammonia</gas>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<atmosphereDensity>150</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalPhi>90</orbitalPhi>
+			<orbitalDistance>340</orbitalDistance>
+			<hasOxygen>false</hasOxygen>
+		</planet>
+		<planet name="Neptune" DIMID="27" customIcon="gasgiantblue">
+			<isKnown>true</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>water</gas>
+			<gas>methane</gas>
+			<gas>ammonia</gas>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<atmosphereDensity>150</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>380</orbitalDistance>
+			<hasOxygen>false</hasOxygen>
+		</planet>
+		<planet name="Pluto" DIMID="28" customIcon="moon">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>1</atmosphereDensity>
+			<gravitationalMultiplier>6</gravitationalMultiplier>
+			<orbitalDistance>430</orbitalDistance>
+			<avgTemperature>-232</avgTemperature>
+			<rotationalPeriod>48000</rotationalPeriod>
+			<hasOxygen>false</hasOxygen>
 		</planet>
 	</star>
 </galaxy>
