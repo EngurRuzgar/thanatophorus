@@ -6,8 +6,4 @@ description: >-
 
 # 👋 Thanatophorus Wiki
 
-The current modpack consist of the mods listed below:
-
-* WORK IN PROGRESS
-* WORK IN PROGRESS
-* WORK IN PROGRESSt
+This wiki will be updated as things progress.
