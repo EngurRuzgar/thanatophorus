@@ -1,5 +1,5 @@
 <galaxy>
-    <star blackHole="true" name="Chronos" size="8" temp="0" x="149" y="132">
+    <star blackHole="true" name="Chronos" size="8" temp="0" x="249" y="132">
         <planet name="Hades" DIMID="99" customIcon="carbonworld">
 			<isKnown>true</isKnown>
             <fogColor>0,0,0</fogColor>
@@ -14,6 +14,28 @@
             <biomeIds>0</biomeIds>
 			<hasOxygen>false</hasOxygen>			
         </planet>
+		<planet name="Thanatophorus" DIMID="100" customIcon="gasgiantred">
+			<isKnown>true</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<gas>tritium</gas>
+			<gas>deuterium</gas>
+			<atmosphereDensity>300</atmosphereDensity>
+			<gravitationalMultiplier>350</gravitationalMultiplier>
+			<orbitalDistance>400</orbitalDistance>
+			<planet name="Schistosomiasis">
+				<isKnown>true</isKnown>
+				<fogColor>2,1,1</fogColor>
+				<skyColor>2,1,1</fogColor>
+				<atmosphereDensity>110</atmosphereDensity>
+				<gravitationalMultiplier>110</gravitationalMultiplier>
+				<orbitalDistance>125</orbitalDistance>
+				<avgTemperature>30</avgTemperature>
+			</planet>
+			<planet name="Cysticercosis">
+			</planet>
+		</planet>
     </star>
 	<star blackHole="false" name="Sol" size="2" temp="100" x="0" y="0">
 		<planet name="Earth" DIMID="0" customIcon="waterworld">
