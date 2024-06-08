@@ -2,9 +2,7 @@
 description: List of custom content and config changes.
 ---
 
-# Custom content
-
-## Scape and Run: Parasites
+# Scape & Run: Parasites
 
 ### Changed Phase point requirements
 

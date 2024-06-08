@@ -1,5 +1,5 @@
 # Table of contents
 
 * [👋 Thanatophorus Wiki](README.md)
-  * [Custom content](thanatophorus-wiki/custom-content.md)
-  * [Modlist](thanatophorus-wiki/modlist.md)
+  * [Modlist](thanatophorus-wiki/modlist/README.md)
+    * [Scape & Run: Parasites](thanatophorus-wiki/modlist/scape-and-run-parasites.md)
