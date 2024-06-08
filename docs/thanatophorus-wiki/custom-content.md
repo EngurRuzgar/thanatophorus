@@ -1,5 +1,5 @@
 ---
-description: List of custom content and config changes.
+description: 'List of custom content and config changes for Scape & Run: Parasites mod.'
 ---
 
 # Scape & Run: Parasites
